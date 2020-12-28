@@ -106,6 +106,8 @@ namespace Example
 
 ## Documentation for API Endpoints
 
+[APG Api documentation](https://api.ayria.club/docs/index.html#_apg_ayria_payment_gateway)
+
 All URIs are relative to *https://api.ayria.club/apg/v1*
 
 Class | Method | HTTP request | Description
