@@ -42,7 +42,6 @@ namespace com.ayriaplatform.apg.Test
         {
             Configuration configuration = new Configuration();
             configuration.AddApiKey("APG-API-KEY", "APG3oNq6T4xJTzPiyaLRBIQqfW8VhswK4a79zGxG1nPM7pPtPO5JXUqooEtxQUxl"); /// CHANGE api key to yours.
-            configuration.AddDefaultHeader("APG-WALLET-ID", "10012036"); /// CHANGE wallet id to yours.
             instance = new PaymentApi(configuration);
         }
 
@@ -74,10 +73,11 @@ namespace com.ayriaplatform.apg.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             string referenceCode = "1a619f40-2654-4ef8-9161-d52656f14c03";
-            var response = instance.GetPaymentByReferenceCode(referenceCode);
+            string walletId = "10012036";
+            var response = instance.GetPaymentByReferenceCode(walletId, referenceCode);
             Assert.IsInstanceOf(typeof(AyriaPaymentV1DTO), response, "response is AyriaPaymentV1DTO");
         }
-        
+
         /// <summary>
         /// Test PaymentCancel
         /// </summary>

@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 build.bat
@@ -12,11 +11,6 @@ docs/AyriaPaymentV1KalaDTO.md
 docs/PaymentApi.md
 git_push.sh
 mono_nunit_test.sh
-src/com.ayriaplatform.apg.Test/Api/PaymentApiTests.cs
-src/com.ayriaplatform.apg.Test/Model/AyriaPaymentV1CancelCommandTests.cs
-src/com.ayriaplatform.apg.Test/Model/AyriaPaymentV1CommandTests.cs
-src/com.ayriaplatform.apg.Test/Model/AyriaPaymentV1DTOTests.cs
-src/com.ayriaplatform.apg.Test/Model/AyriaPaymentV1KalaDTOTests.cs
 src/com.ayriaplatform.apg.Test/com.ayriaplatform.apg.Test.csproj
 src/com.ayriaplatform.apg.Test/packages.config
 src/com.ayriaplatform.apg/Api/PaymentApi.cs

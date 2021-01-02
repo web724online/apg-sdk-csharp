@@ -4,7 +4,7 @@ APG API
 
 This is a APG (Ayria Payment Gateway) API SDK.
 
-The version of the OpenAPI document: 1.0.0
+The version of the OpenAPI document: 1.0.1
 
 -->
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -12,7 +12,7 @@ The version of the OpenAPI document: 1.0.0
     
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{107E18F2-EA09-4003-A9AC-840C70614E10}</ProjectGuid>
+    <ProjectGuid>{B2801B7B-7F06-472F-9683-68703D9C4933}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>com.ayriaplatform.apg</RootNamespace>
