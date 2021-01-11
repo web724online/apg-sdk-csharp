@@ -8,6 +8,7 @@ Method | HTTP request | Description
 [**GetPayments**](PaymentApi.md#getpayments) | **GET** /list | List of payments between given dates
 [**PaymentCancel**](PaymentApi.md#paymentcancel) | **POST** /cancel | Cancel a  payment
 [**PaymentCreate**](PaymentApi.md#paymentcreate) | **POST** /create | Add a new payment
+[**VerifyPaymentByReferenceCode**](PaymentApi.md#verifypaymentbyreferencecode) | **POST** /verify/{referenceCode} | Verify payment with referenceCode
 
 
 
@@ -341,6 +342,90 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 | **201** | successful operation |  -  |
 | **400** | Bad request |  -  |
+
+[[Back to top]](#)
+[[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## VerifyPaymentByReferenceCode
+
+> AyriaPaymentV1DTO VerifyPaymentByReferenceCode (string APG_WALLET_ID, string referenceCode)
+
+Verify payment with referenceCode
+
+Returns a single payment
+
+### Example
+
+```csharp
+using System.Collections.Generic;
+using System.Diagnostics;
+using com.ayriaplatform.apg.Api;
+using com.ayriaplatform.apg.Client;
+using com.ayriaplatform.apg.Model;
+
+namespace Example
+{
+    public class VerifyPaymentByReferenceCodeExample
+    {
+        public static void Main()
+        {
+            Configuration.Default.BasePath = "https://api.ayria.club/apg/v1";
+            // Configure API key authorization: APG-API-KEY
+            Configuration.Default.AddApiKey("APG-API-KEY", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // Configuration.Default.AddApiKeyPrefix("APG-API-KEY", "Bearer");
+
+            var apiInstance = new PaymentApi(Configuration.Default);
+            var APG_WALLET_ID = APG_WALLET_ID_example;  // string | 
+            var referenceCode = referenceCode_example;  // string | ReferenceCode of payment to verify
+
+            try
+            {
+                // Verify payment with referenceCode
+                AyriaPaymentV1DTO result = apiInstance.VerifyPaymentByReferenceCode(APG_WALLET_ID, referenceCode);
+                Debug.WriteLine(result);
+            }
+            catch (ApiException e)
+            {
+                Debug.Print("Exception when calling PaymentApi.VerifyPaymentByReferenceCode: " + e.Message );
+                Debug.Print("Status Code: "+ e.ErrorCode);
+                Debug.Print(e.StackTrace);
+            }
+        }
+    }
+}
+```
+
+### Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **APG_WALLET_ID** | **string**|  | 
+ **referenceCode** | **string**| ReferenceCode of payment to verify | 
+
+### Return type
+
+[**AyriaPaymentV1DTO**](AyriaPaymentV1DTO.md)
+
+### Authorization
+
+[APG-API-KEY](../README.md#APG-API-KEY)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | successful operation |  -  |
+| **400** | Invalid Reference code supplied |  -  |
+| **404** | Payment not found |  -  |
 
 [[Back to top]](#)
 [[Back to API list]](../README.md#documentation-for-api-endpoints)

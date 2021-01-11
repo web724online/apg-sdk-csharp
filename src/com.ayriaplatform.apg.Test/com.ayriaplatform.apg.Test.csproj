@@ -4,7 +4,7 @@ APG API
 
 This is a APG (Ayria Payment Gateway) API SDK.
 
-The version of the OpenAPI document: 1.0.1
+The version of the OpenAPI document: 1.2.0
 
 -->
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -81,7 +81,7 @@ The version of the OpenAPI document: 1.0.1
   <Import Project="$(MsBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
       <ProjectReference Include="..\com.ayriaplatform.apg\com.ayriaplatform.apg.csproj">
-          <Project>{B2801B7B-7F06-472F-9683-68703D9C4933}</Project>
+          <Project>{5A174131-AAC5-4762-A028-CC6F26A0E718}</Project>
           <Name>com.ayriaplatform.apg</Name>
       </ProjectReference>
   </ItemGroup>
