@@ -6,17 +6,17 @@
 wget -nc https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 mozroots --import --sync
 
-echo "[INFO] remove bin/Debug/com.ayriaplatform.apg.Test.dll"
-rm src/com.ayriaplatform.apg.Test/bin/Debug/com.ayriaplatform.apg.Test.dll 2> /dev/null
+echo "[INFO] remove bin/Debug/Com.AyriaPlatform.APG.Test.dll"
+rm src/Com.AyriaPlatform.APG.Test/bin/Debug/Com.AyriaPlatform.APG.Test.dll 2> /dev/null
 
 echo "[INFO] install NUnit runners via NuGet"
 wget -nc https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 mozroots --import --sync
-mono nuget.exe install src/com.ayriaplatform.apg.Test/packages.config -o packages
+mono nuget.exe install src/Com.AyriaPlatform.APG.Test/packages.config -o packages
 
 echo "[INFO] Install NUnit Console 3.x runners via NuGet"
 mono nuget.exe install NUnit.ConsoleRunner -Version 3.10.0 -OutputDirectory packages
 
 echo "[INFO] Build the solution and run the unit test"
-xbuild com.ayriaplatform.apg.sln && \
-    mono ./packages/NUnit.ConsoleRunner.3.10.0/tools/nunit3-console.exe src/com.ayriaplatform.apg.Test/bin/Debug/com.ayriaplatform.apg.Test.dll
+xbuild Com.AyriaPlatform.APG.sln && \
+    mono ./packages/NUnit.ConsoleRunner.3.10.0/tools/nunit3-console.exe src/Com.AyriaPlatform.APG.Test/bin/Debug/Com.AyriaPlatform.APG.Test.dll

@@ -1,5 +1,5 @@
 
-# com.ayriaplatform.apg.Model.AyriaPaymentV1KalaDTO
+# Com.AyriaPlatform.APG.Model.AyriaPaymentV1KalaDTO
 
 ## Properties
 

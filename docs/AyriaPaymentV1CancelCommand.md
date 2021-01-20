@@ -1,5 +1,5 @@
 
-# com.ayriaplatform.apg.Model.AyriaPaymentV1CancelCommand
+# Com.AyriaPlatform.APG.Model.AyriaPaymentV1CancelCommand
 
 ## Properties
 

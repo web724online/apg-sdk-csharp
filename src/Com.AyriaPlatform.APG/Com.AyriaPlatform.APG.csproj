@@ -4,7 +4,7 @@ APG API
 
 This is a APG (Ayria Payment Gateway) API SDK.
 
-The version of the OpenAPI document: 1.2.0
+The version of the OpenAPI document: 1.2.1
 
 -->
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -12,11 +12,11 @@ The version of the OpenAPI document: 1.2.0
     
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5A174131-AAC5-4762-A028-CC6F26A0E718}</ProjectGuid>
+    <ProjectGuid>{C2B658BE-A491-465D-B44C-96FF43C78CBF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>com.ayriaplatform.apg</RootNamespace>
-    <AssemblyName>com.ayriaplatform.apg</AssemblyName>
+    <RootNamespace>Com.AyriaPlatform.APG</RootNamespace>
+    <AssemblyName>Com.AyriaPlatform.APG</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -28,7 +28,7 @@ The version of the OpenAPI document: 1.2.0
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\com.ayriaplatform.apg.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Com.AyriaPlatform.APG.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -37,7 +37,7 @@ The version of the OpenAPI document: 1.2.0
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\com.ayriaplatform.apg.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Com.AyriaPlatform.APG.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -4,6 +4,6 @@
 language: csharp
 mono:
   - latest
-solution: com.ayriaplatform.apg.sln
+solution: Com.AyriaPlatform.APG.sln
 script:
   - /bin/sh ./mono_nunit_test.sh

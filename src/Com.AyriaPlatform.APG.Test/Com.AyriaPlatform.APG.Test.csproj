@@ -14,8 +14,8 @@ The version of the OpenAPI document: 1.2.1
     <ProjectGuid>{19F1DEBC-DE5E-4517-8062-F000CD499087}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>com.ayriaplatform.apg.Test</RootNamespace>
-    <AssemblyName>com.ayriaplatform.apg.Test</AssemblyName>
+    <RootNamespace>Com.AyriaPlatform.APG.Test</RootNamespace>
+    <AssemblyName>Com.AyriaPlatform.APG.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -80,9 +80,9 @@ The version of the OpenAPI document: 1.2.1
   </ItemGroup>
   <Import Project="$(MsBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-      <ProjectReference Include="..\com.ayriaplatform.apg\com.ayriaplatform.apg.csproj">
-          <Project>{523A0A92-9F8C-46C0-B68E-0E075FFABE1F}</Project>
-          <Name>com.ayriaplatform.apg</Name>
+      <ProjectReference Include="..\Com.AyriaPlatform.APG\Com.AyriaPlatform.APG.csproj">
+          <Project>{C2B658BE-A491-465D-B44C-96FF43C78CBF}</Project>
+          <Name>Com.AyriaPlatform.APG</Name>
       </ProjectReference>
   </ItemGroup>
 </Project>

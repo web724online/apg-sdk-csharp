@@ -1,4 +1,4 @@
-# com.ayriaplatform.apg.Api.PaymentApi
+# Com.AyriaPlatform.APG.Api.PaymentApi
 
 All URIs are relative to *https://api.ayria.club/apg/v1*
 
@@ -25,9 +25,9 @@ Returns a single payment
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using com.ayriaplatform.apg.Api;
-using com.ayriaplatform.apg.Client;
-using com.ayriaplatform.apg.Model;
+using Com.AyriaPlatform.APG.Api;
+using Com.AyriaPlatform.APG.Client;
+using Com.AyriaPlatform.APG.Model;
 
 namespace Example
 {
@@ -109,9 +109,9 @@ Returns a payment list
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using com.ayriaplatform.apg.Api;
-using com.ayriaplatform.apg.Client;
-using com.ayriaplatform.apg.Model;
+using Com.AyriaPlatform.APG.Api;
+using Com.AyriaPlatform.APG.Client;
+using Com.AyriaPlatform.APG.Model;
 
 namespace Example
 {
@@ -197,9 +197,9 @@ Cancel a  payment
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using com.ayriaplatform.apg.Api;
-using com.ayriaplatform.apg.Client;
-using com.ayriaplatform.apg.Model;
+using Com.AyriaPlatform.APG.Api;
+using Com.AyriaPlatform.APG.Client;
+using Com.AyriaPlatform.APG.Model;
 
 namespace Example
 {
@@ -279,9 +279,9 @@ Add a new payment
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using com.ayriaplatform.apg.Api;
-using com.ayriaplatform.apg.Client;
-using com.ayriaplatform.apg.Model;
+using Com.AyriaPlatform.APG.Api;
+using Com.AyriaPlatform.APG.Client;
+using Com.AyriaPlatform.APG.Model;
 
 namespace Example
 {
@@ -362,9 +362,9 @@ Returns a single payment
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using com.ayriaplatform.apg.Api;
-using com.ayriaplatform.apg.Client;
-using com.ayriaplatform.apg.Model;
+using Com.AyriaPlatform.APG.Api;
+using Com.AyriaPlatform.APG.Client;
+using Com.AyriaPlatform.APG.Model;
 
 namespace Example
 {

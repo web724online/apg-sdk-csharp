@@ -1,5 +1,5 @@
 
-# com.ayriaplatform.apg.Model.AyriaPaymentV1DTO
+# Com.AyriaPlatform.APG.Model.AyriaPaymentV1DTO
 
 ## Properties
 
@@ -20,6 +20,9 @@ Name | Type | Description | Notes
 **CreatedDate** | **string** | Create date of payment | [optional] 
 **PaymentUrl** | **string** | Payment URL | [optional] 
 **CancelDescription** | **string** | Cancel description | [optional] 
+**IssuerMustVerifyPayment** | **bool** | If is &#39;true&#39; issuer must verify payment | [optional] 
+**PaymentStatus** | **string** | Is usually DEFAULT, but can be WAITING_FOR_VERIFY or VERIFIED if issuerMustVerifyPayment is true | [optional] 
+**CallbackUrl** | **string** | Callback url, if is null then default callback url will be used instead | [optional] 
 **Kalas** | [**List&lt;AyriaPaymentV1KalaDTO&gt;**](AyriaPaymentV1KalaDTO.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models)
