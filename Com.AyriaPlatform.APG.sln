@@ -2,9 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 VisualStudioVersion = 12.0.0.0
 MinimumVisualStudioVersion = 10.0.0.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.AyriaPlatform.APG", "src\Com.AyriaPlatform.APG\Com.AyriaPlatform.APG.csproj", "{C2B658BE-A491-465D-B44C-96FF43C78CBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.ayriaplatform.apg", "src\com.ayriaplatform.apg\com.ayriaplatform.apg.csproj", "{523A0A92-9F8C-46C0-B68E-0E075FFABE1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.AyriaPlatform.APG.Test", "src\Com.AyriaPlatform.APG.Test\Com.AyriaPlatform.APG.Test.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.ayriaplatform.apg.Test", "src\com.ayriaplatform.apg.Test\com.ayriaplatform.apg.Test.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,10 +12,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2B658BE-A491-465D-B44C-96FF43C78CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2B658BE-A491-465D-B44C-96FF43C78CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2B658BE-A491-465D-B44C-96FF43C78CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2B658BE-A491-465D-B44C-96FF43C78CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523A0A92-9F8C-46C0-B68E-0E075FFABE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523A0A92-9F8C-46C0-B68E-0E075FFABE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523A0A92-9F8C-46C0-B68E-0E075FFABE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523A0A92-9F8C-46C0-B68E-0E075FFABE1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.ActiveCfg = Release|Any CPU
